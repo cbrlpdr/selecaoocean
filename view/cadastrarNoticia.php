@@ -11,7 +11,7 @@
 <form action="php/controller.php?acao=cadastrarNoticia" method="POST" enctype="multipart/form-data">
 <div class="form-group">
     <label for="tituloNoticia"  class="inputTitle">Título da notícia</label>
-    <input required="required" class="form-control form-control-lg" type="text" name="titulo" id="titulo" placeholder="Seja criativo e pense num título atrativo">
+    <input maxlength="40" required="required" class="form-control form-control-lg" type="text" name="titulo" id="titulo" placeholder="Seja criativo e pense num título atrativo">
 </div>
 
 <div class="form-group">
@@ -26,17 +26,17 @@
 
 <div class="form-group">
     <label for="autor"  class="inputTitle">Autor</label>
-    <input  required="required" class="form-control form-control-lg" type="text" name="autor" id="autor" placeholder="Digite seu nome (ou pseudônimo)">
+    <input  maxlength="60"  required="required" class="form-control form-control-lg" type="text" name="autor" id="autor" placeholder="Digite seu nome (ou pseudônimo)">
 </div>
 
 <div class="form-group">
     <label for="fonte"  class="inputTitle">Fonte</label>
-    <input class="form-control form-control-sm" type="text" name="fonte" id="fonte" placeholder="As fontes adicionam credibilidade à sua notícia.">
+    <input  maxlength="60"  class="form-control form-control-sm" type="text" name="fonte" id="fonte" placeholder="As fontes adicionam credibilidade à sua notícia.">
 </div>
 
 <div class="form-group">
     <label for="tags"  class="inputTitle">Marcadores</label>
-    <input class="form-control form-control-sm" type="text" name="tags" id="tags" placeholder="As pessoas costumam usar as tags para encontrar notícias. Use ',' para separar as tags.">
+    <input  maxlength="50"  class="form-control form-control-sm" type="text" name="tags" id="tags" placeholder="As pessoas costumam usar as tags para encontrar notícias. Use ',' para separar as tags.">
 </div>
 
 <div class="center">
