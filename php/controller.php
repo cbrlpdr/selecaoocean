@@ -53,7 +53,6 @@ if($acao=="cadastrarNoticia"){
     //Insere as tags na tabela
     foreach ($tags as $i => $tag) {
         $tag=strtolower($tag);
-        $tag=str_replace($tag,' ','');
         $sql = " INSERT INTO `dieseite`.`tag`
         (`tag_id`,
         `tag_nome`,
