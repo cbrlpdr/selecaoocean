@@ -1,0 +1,30 @@
+.inputTitle{
+    font-size: 0.5cm;
+}
+
+.center{
+    text-align-last: center;
+}
+
+.ntcThumb{
+    margin: 2%;
+    max-width: 260px;
+    max-height: 180px;
+    min-width: 232px;
+    min-height: 170px;
+    width:auto;
+    height:auto;
+
+}
+.ntcBig{
+float: left;
+    max-width: 430px;
+    max-height: 360px;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+
+a:hover{
+    text-decoration:none;
+}
