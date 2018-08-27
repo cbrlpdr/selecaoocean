@@ -16,8 +16,8 @@
 
 <div class="form-group">
     <label for="conteudo"  class="inputTitle">Conteúdo da Notícia</label>
-    <textarea maxlength="820" required="required" class="form-control form-control-lg" style="height: 200px" type="text" name="noticia" id="conteudo" placeholder="Aqui você pode escrever sua notícia. Lembre-se: para receber boas avaliações, escreva sobre algo que as pessoas gostam de ler!" onKeyDown="contadorChar();" onKeyUp="contadorChar();"></textarea>
-    <label id="charRest" >Máximo de 820 caracteres</label>
+    <textarea maxlength="800" required="required" class="form-control form-control-lg" style="height: 200px" type="text" name="noticia" id="conteudo" placeholder="Aqui você pode escrever sua notícia. Lembre-se: para receber boas avaliações, escreva sobre algo que as pessoas gostam de ler!" onKeyDown="contadorChar();" onKeyUp="contadorChar();"></textarea>
+    <label id="charRest" >Máximo de 800 caracteres</label>
 </div>
 <div class="form-group">
     <label for="image" class="inputTitle">Imagem</label><br>
@@ -54,7 +54,7 @@
 
 <script>
 function contadorChar(campo, numChars, max){
-    document.getElementById("charRest").innerHTML=document.getElementById("conteudo").value.length + "/820 <i>(" + (820 - document.getElementById("conteudo").value.length) + " caracteres restantes)</i>" ;
+    document.getElementById("charRest").innerHTML=document.getElementById("conteudo").value.length + "/800 <i>(" + (800 - document.getElementById("conteudo").value.length) + " caracteres restantes)</i>" ;
       
 }
 </script>
